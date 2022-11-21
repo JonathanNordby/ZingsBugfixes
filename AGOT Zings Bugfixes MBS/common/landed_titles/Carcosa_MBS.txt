@@ -1,0 +1,124 @@
+k_carcosa = {
+	color={ 255 255 0 }
+	color2={ 255 255 50 }	
+	
+		
+	capital = 808 #Carcosa
+	
+	allow = {
+		hidden_tooltip = { NOT = { culture_group = winter_group } }
+	}
+	
+	d_carcosa = {
+		color={ 255 255 0 }
+		color2={ 255 255 50 }	
+
+		c_carcosa = {
+			color={ 255 255 0 }
+			color2={ 255 255 50 }	
+			
+
+			b_carcosa = {
+			}
+
+			b_carcosa_city = {
+			}
+
+			b_carcosa_temple = {
+			}
+
+			b_walls_carcosa = {
+			}
+
+			b_carcosa_harbour = {
+			}
+
+			b_carcosa_market = {
+			}
+		}
+		c_hidden_valley = {
+			color={ 255 230 0 }
+			color2={ 255 230 50 }	
+			
+
+			b_hidden_valley = {
+			}
+
+			b_hidden_valley_city = {
+			}
+
+			b_hidden_valley_temple = {
+			}
+
+			b_hidden_valley_city_2 = {
+			}
+		}
+		c_hidden_shore = {
+			color={ 255 230 0 }
+			color2={ 255 230 50 }	
+			
+
+			b_hidden_shore = {
+			}
+
+			b_hidden_shore_city = {
+			}
+
+			b_hidden_shore_temple = {
+			}
+
+			b_hidden_shore_city_2 = {
+			}
+		}
+	}
+	d_carcosa_pass = {
+		color={ 255 230 0 }
+		color2={ 255 230 50 }	
+			
+		c_hidden_fort = {
+			color={ 255 230 0 }
+			color2={ 255 230 50 }	
+			
+
+			b_hidden_fort = {
+			}
+
+			b_hidden_fort_temple = {
+			}
+
+			b_hidden_fort_2 = {
+			}
+		}
+		c_river_of_morn = {
+			color={ 255 230 0 }
+			color2={ 255 230 50 }	
+			
+
+			b_river_of_morn = {
+			}
+
+			b_river_of_morn_temple = {
+			}
+
+			b_river_of_morn_2 = {
+			}
+			
+			b_river_of_morn_3 = {
+			}
+		}
+		c_hidden_pass = {
+			color={ 255 230 0 }
+			color2={ 255 230 50 }	
+			
+
+			b_hidden_pass = {
+			}
+
+			b_hidden_pass_temple = {
+			}
+
+			b_hidden_pass_2 = {
+			}
+		}
+	}
+}

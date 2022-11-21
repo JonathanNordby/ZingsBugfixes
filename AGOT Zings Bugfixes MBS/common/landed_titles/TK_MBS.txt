@@ -1,0 +1,69 @@
+#### Titular Kingdoms - North ####
+k_oldcastleTK = {
+	color = { 145 145 213 }
+	color2 = { 255 255 255 }
+	
+	allow = {
+		num_of_duke_titles = 2
+		primary_title = { title = d_oldcastle }
+		custom_tooltip = {
+			text = TOOLTIPINDEPENDENTCONDITION
+			hidden_tooltip = {
+				independent = yes
+				primary_title = { NOT = { check_variable = { which = "de_facto_empire" value = 1 } } }
+			}
+		}
+	}
+	
+	capital = 65 # Oldcastle
+	creation_requires_capital = yes
+	
+	culture = northman
+	
+	
+}
+k_godseyeTK = {
+	color = { 0 70 0 }
+	color2 = { 255 255 255 }
+	
+	allow = {
+		num_of_duke_titles = 2
+		primary_title = { title = d_harrenhal }
+		is_old_gods_religion_trigger = yes
+		custom_tooltip = {
+			text = TOOLTIPINDEPENDENTCONDITION
+			hidden_tooltip = {
+				independent = yes
+				primary_title = { NOT = { check_variable = { which = "de_facto_empire" value = 1 } } }
+			}
+		}
+	}
+	
+	
+	culture = riverlander
+	
+	
+}
+k_blackpoolTK = {
+	color = { 145 145 213 }
+	color2 = { 255 255 255 }
+	
+	allow = {
+		num_of_duke_titles = 2
+		capital_holding = { c_blackpool }
+		custom_tooltip = {
+			text = TOOLTIPINDEPENDENTCONDITION
+			hidden_tooltip = {
+				independent = yes
+				primary_title = { NOT = { check_variable = { which = "de_facto_empire" value = 1 } } }
+			}
+		}
+	}
+	
+	capital = 533 # Blackpool
+	creation_requires_capital = yes
+	
+	culture = northman
+	
+	
+}

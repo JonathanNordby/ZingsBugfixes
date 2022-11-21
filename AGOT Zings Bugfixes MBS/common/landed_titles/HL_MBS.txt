@@ -1,0 +1,71 @@
+#### Titular Kingdoms - North ####
+d_claw_isle = {
+	color={ 157 46 109 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		OR = {				
+			custom_tooltip = {
+				text = TOOLTIPhl_creation_requirement
+				hidden_tooltip = { any_demesne_province = { duchy = { title = FROM } } }
+			}	
+			has_game_rule = { name = hl_creation_requirement value = off }
+		}	
+	}
+}
+d_driftmark = {
+	color={ 245 71 173 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		OR = {				
+			custom_tooltip = {
+				text = TOOLTIPhl_creation_requirement
+				hidden_tooltip = { any_demesne_province = { duchy = { title = FROM } } }
+			}	
+			has_game_rule = { name = hl_creation_requirement value = off }
+		}	
+	}
+}
+d_sharp_point = {
+	color={ 245 71 173 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		OR = {				
+			custom_tooltip = {
+				text = TOOLTIPhl_creation_requirement
+				hidden_tooltip = { any_demesne_province = { duchy = { title = FROM } } }
+			}	
+			has_game_rule = { name = hl_creation_requirement value = off }
+		}	
+	}
+}
+d_sweetport_sound = {
+	color={ 245 71 173 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		OR = {				
+			custom_tooltip = {
+				text = TOOLTIPhl_creation_requirement
+				hidden_tooltip = { any_demesne_province = { duchy = { title = FROM } } }
+			}	
+			has_game_rule = { name = hl_creation_requirement value = off }
+		}	
+	}
+}
+d_widowswatch = {
+	color={ 100 99 100 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		OR = {				
+			custom_tooltip = {
+				text = TOOLTIPhl_creation_requirement
+				hidden_tooltip = { any_demesne_province = { duchy = { title = FROM } } }
+			}	
+			has_game_rule = { name = hl_creation_requirement value = off }
+		}	
+	}
+}

@@ -1,0 +1,56 @@
+d_cotf_mbs = {
+	color={ 172 185 172 }
+	color2={ 255 255 255 }
+
+
+	culture = children_forest
+	religion = beyond_wall_old_gods
+	title = "GREENSEER_MBS"
+	foa = "GREENSEER_MBS_FOA"
+	short_name = yes
+	
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	can_be_claimed = no
+	can_be_usurped = no
+}
+d_mbs_sparrows = {
+	color = { 137 137 193 }
+	color2 = { 130 80 110 }
+	
+	allow = {
+		trait = septon
+	}
+
+	dignity = 10
+
+	title = "SPARROW_MBS"
+	foa = "SPARROW_MBS_FOA"
+	short_name = yes
+	religion = the_seven
+	culture = kingslander
+	landless = yes
+		
+	primary = yes
+
+	can_be_claimed = no
+	can_be_usurped = no	
+}
+d_ravens_teeth_mbs = {
+	color = { 137 137 193 }
+	color2 = { 130 80 110 }
+	
+
+	landless = yes
+	religion = old_gods
+	culture = riverman
+
+		
+
+	can_be_claimed = no
+}
